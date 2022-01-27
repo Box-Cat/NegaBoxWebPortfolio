@@ -1,0 +1,507 @@
+@charset "UTF-8";
+.container {
+			width: 1100px;
+	margin: 0px auto;
+
+}
+#header1 {
+	width: 100%;
+	height: 42px;
+	background-color: #f8f8fa;
+	margin: 0px;
+}
+
+a {
+	text-decoration: none
+}
+
+.icon-height {
+	margin-top: 13px;
+}
+
+.left {
+	float: left;
+	margin-right: 20px;
+}
+
+.right {
+	float: right;
+	margin-left: 20px;
+}
+
+.mini-nav {
+	font-size: 13px;
+	font-family: NanumBarunGothic, Dotum, 돋움, sans-serif;
+	color: rgb(68, 68, 68);
+}
+
+.nav {
+	margin-top: 10px;
+}
+
+.font {
+	font-size: 17px;
+	color: black;
+	font-weight: bold;
+	font-family: NanumBarunGothicf;
+}
+
+.left1 {
+	float: left;
+}
+
+.right1 {
+	float: right;
+}
+
+#page-util {
+	display: block;
+	position: relative;
+	top: 4px;
+	width: 100%;
+	height: 42px;
+	background-color: #f8f8fa;
+	border-top: solid 1px #351f67;
+	padding: 0;
+	line-height: 46px;
+	color: #666;
+}
+
+#page-util a {
+	line-height: 46px;
+	color: #666;
+	font-size: 15px;
+	position: relative;
+	top: -1px;
+}
+
+#page-util img {
+	position: relative;
+	top: -2px;
+}
+
+#page-util-others {
+	display: block;
+	position: relative;
+	top: 4px;
+	width: 100%;
+	height: 43px;
+	background-color: rgb(51, 158, 178);
+	padding: 0;
+	line-height: 46px;
+	color: #666;
+}
+
+
+#page-util-others a {
+	position: relative;
+	top: -4px;
+	font-family: NanumBarunGothic, Dotum, 돋움, sans-serif;
+	color: rgb(255, 255, 255);
+	font-size: 15px;
+}
+
+.has_sub_menu.on {
+	border-bottom: 4px solid rgb(51, 158, 178);
+	height: 41px;
+}
+
+		/*여기까지가 header. 아래에서부터 본문 내용 입력*/
+#footer{
+	height:200px;
+	width:100%;
+	background-color:#f8f8fa;
+}
+.container {
+	width: 1100px;
+	margin: 0px auto;
+
+}
+a {
+	text-decoration: none
+}
+.footerlink{
+	display:block;
+	color:#666;
+	line-height:30px;
+	font-size:.8em;
+	margin:0 10px 10px 0;
+	float:left;
+}
+#footerbox{
+	overflow:hidden;
+	box-sizing:border-box;
+	width:106px;
+	height:30px;
+	margin:5px 0 0 0;
+	padding:0;
+	text-align:center;
+	display:block;
+	line-height:28px;
+	font-size:.8667em;
+	color:#666;
+	border:1px solid #d8d9db;
+	border-radius:30px;
+	float:right;
+}
+#footerbox1{
+	width:100%;
+	height:30px;
+	padding:30px 0;
+	margin:0;
+}
+#footerbox2{
+	width:100%;
+	height:60px;
+	display:block;
+	margin:0;
+}
+#footerbox3{
+	width:185px;
+	height:30px;
+	display:block;
+	margin:0;
+	float:right;
+	position: relative;
+   	bottom: 60px;
+   	right: -168px;
+}
+	
+#footerbox4{
+	width:85%;
+	height:60px;
+	display:block;
+	margin:0;
+	float:left;
+}
+.footertext{
+	font-size:.7777em; 
+	font-weight:400; 
+	color:#444; 
+	float:left; 
+	vertical-align:top; 
+	display:inline-block;
+	margin:0;
+}
+.footerlink1{
+	display:block;
+	margin:0 5px 0 0;
+	width:31px;
+	height:30px;
+	float:right;
+}
+		/* ---------------여기까지가 footer------------------------- */
+.inner-wrap {
+	background-color:#fff; 
+	width: 1100px;
+	height:1330px;
+	margin:0 auto;
+	
+}
+.inb-area {
+	float: left;
+	width: 200px;
+	height: 800px;
+	background-color:#fff;
+	box-sizing: border-box;
+	border: 1px solid #d8d9db;
+	border-radius: 5px;
+	
+}
+.my-megabox-main{
+	float: right;
+	width: 840px;
+	height: 1248.5px;
+	background-color:#fff;
+	font-family: NanumBarunGothic,Dotum,'돋움',sans-serif;
+}
+.inb-area .tit {
+	display: block;
+    width: 100%;
+    font-size: 18px;
+    line-height: 90px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    background-color:#000000;
+    border-radius: 10px 10px 0 0;
+    
+}
+.area-a {
+	display: block;
+    color: #222;
+    padding: 10px 15px;
+    font-weight: 400;
+    background-color: #f2f4f5;
+    border: 1px solid #d8d9db;
+	border-radius: 5px;
+	font-size:15px;
+	font-family: NanumBarunGothic,Dotum,'돋움',sans-serif;
+	border-bottom: none;
+}
+.area-b {
+	padding: 2px 0 2px 24px;
+    color: #666;
+    display: block;
+    font-size:15px;
+    font-weight: 400;
+    font-family: NanumBarunGothic,Dotum,'돋움',sans-serif;
+}
+
+.area-box {
+	padding: 20px 0;
+    width: 200px;
+}
+
+				/* ----------------------여기 까지 매가박스 왼쪽 리스트------------------------ */ 
+.contents {
+	float:right;
+	margin:0;
+	width:840px;
+	height: 426.3px;
+}
+.movie-tit {
+	padding: 0 0 26px 0;
+    font-size: 1.8666em;
+    font-weight: 400;
+    letter-spacing: -1px;
+    line-height: 1.1;
+    color: #222;
+    margin:0px;
+    
+}
+.btn {
+	width: 166px;
+    height: 34px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 34px;
+    text-align: center;
+    float: left;
+    border: 1px solid #d8d9db;
+}
+.btn a {
+	color:#444444;
+}
+.btn.on {
+	height:34px;
+	width:166px;
+	float:left;
+	border: 1px solid #d8d9db;
+	text-align: center;
+    line-height: 36px;
+	color: #fff;
+    background-color: #555;
+}
+.btn.on a {
+	color:#fff;
+}
+.btn-list {
+	width:840px;
+	height:50px;
+	margin-top:65px;
+	border: 1px solid #d8d9db;
+}
+.left-swiper-btn {
+	float:left;
+    border: 1px solid #d8d9db;
+    background-image: url(./image/member_img/btn-timeline-prev.png);
+   	width:31px;
+   	height:50px;
+   	background-position: center;
+}
+.right-swiper-btn {
+	float:right;
+	border: 1px solid #d8d9db;
+    background-image: url(./image/member_img/btn-timeline-next.png);
+   	width:31px;
+   	height:50px;
+   	background-position: center;
+}
+.date-btn {
+	width: 86.21px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 2px solid #503396;
+}
+.movie-timeline {
+text-align: center;
+    height: 128px;
+    line-height: 128px;
+}
+.tab-btn {
+	position: relative;
+    display: inline-block;
+    margin: 10px 12px 0 12px;
+    padding: 0 0 5px 0;
+    border: 0;
+    color: #555;
+    font-size: 1.0667em;
+    font-weight: 400;
+    border-bottom: 2px solid #fff;
+    background-color: #fff;
+   	display:block;
+}
+.tab-btn.on{
+	color: #351f66; 
+	border-bottom: 2px solid #503396;
+}
+
+.tab-sorting {
+    text-align: center;
+    float: left;
+    width: 840px;
+    height: 58px;
+    margin-top: 20px;
+}
+.result-count {
+	position: relative;
+    float: left;
+    margin: 0;
+    padding-top: 15px;
+    line-height: 1.1;
+    vertical-align: top;
+}
+.movie-list {
+	width: 840px;
+    height: 36px;
+    float: left;
+    margin-bottom: 15px;
+}
+.movie-post {
+	width: 840px;
+    height: 127px;
+    float: left;
+    text-align: center;
+    line-height: 127px;
+}
+.list-right {
+	float: right;
+    width: 330px;
+    height: 36px;
+    text-align: center;
+}
+.list-btn {
+	display: block;
+    color: #666;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    float:left;
+    line-height: 36px;
+}
+.list-btn.on {
+	color: #222;
+    font-weight: 700;
+}
+.line-box {
+	float: left;
+    display: block;
+    width: 1px;
+    height: 12px;
+    background-color: #d8d9db;
+    margin: 12px 8px 12px 8px;	
+}
+.input-box {
+	width: 230px;
+    height: 36px;
+    float: left;
+    margin: 0;
+    border: 1px solid #d8d9db;
+    border-radius: 3px;
+}
+.input-text {
+	width: 190px;
+    height: 30px;
+    float:left;
+}
+.btn-search {
+	background-image: url(./image/member_img/btn-search-input.png);
+    width: 32px;
+    height: 36px;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-position: center;
+}
+.board-list-movie-story {
+	margin: 30px 0 15px 0;
+    text-align: right;
+    width: 840px;
+    height: 50px;
+    float: left;
+    border-bottom: 1px solid;
+}
+.no-result {
+	float: left;
+    width: 840px;
+    height: 118px;
+    border-bottom: 1px solid #eaeaea;
+    text-align: center;
+    line-height: 108px;
+}
+.movie-tit {
+	padding: 0 0 26px 0;
+    font-size: 1.8666em;
+    font-weight: 400;
+    letter-spacing: -1px;
+    line-height: 1.1;
+    color: #222;
+    margin:0px;
+    
+}
+.dot-list {
+	margin: 0;
+    padding-left: 20px;
+    float:left;
+    
+}
+.btn-model-open {
+	float:right;
+	border: 1px solid;
+    border-radius: 4px;
+    vertical-align: middle;
+    background-color: #fff;
+    font-weight: 400;
+    height: 36px;
+    text-align: center;
+    line-height: 34px;
+    padding: 0 15px;
+}
+.mypage-info {
+	height: 56px;
+    padding: 0px;
+    margin-top: 70px;
+}
+.board-list-util {
+	margin: 30px 0 15px 0;
+    text-align: right;
+    width: 840px;
+    height: 50px;
+    float: left;
+}
+.like-movie {
+	float:left;
+	padding: 70px 0 0 0;
+	text-align:center;
+	width: 840px;
+}
+.ico-movie {
+    background-image: url(image/member_img/ico-movie-see.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    width:840px;
+    height:44px;
+}
+.font-gblue {
+	color: #01738b;
+}

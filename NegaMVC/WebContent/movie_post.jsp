@@ -1,0 +1,1214 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="shortcut icon" href="./image/megabox_logo.ico">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MEET PLAY SHARE, 메가박스</title>
+	<style>
+		.container {
+			width: 1100px;
+			margin: 0px auto;
+			
+		}
+		#header1 {
+			width: 100%;
+			height: 42px;
+			background-color: #f8f8fa;
+			margin: 0px;
+		}
+
+		a {
+			text-decoration: none
+		}
+
+		.icon-height {
+			margin-top: 13px;
+		}
+
+		.left {
+			float: left;
+			margin-right: 20px;
+		}
+
+		.right {
+			float: right;
+			margin-left: 20px;
+		}
+
+		.mini-nav {
+			font-size: 13px;
+			font-family: NanumBarunGothic, Dotum, 돋움, sans-serif;
+			color: rgb(68, 68, 68);
+		}
+
+		.nav {
+			margin-top: 10px;
+		}
+
+		.font {
+			font-size: 17px;
+			color: black;
+			font-weight: bold;
+			font-family: NanumBarunGothicf;
+		}
+
+		.left1 {
+			float: left;
+		}
+
+		.right1 {
+			float: right;
+		}
+
+		#page-util {
+			display: block;
+			position: relative;
+			top: 4px;
+			width: 100%;
+			height: 42px;
+			background-color: #f8f8fa;
+			border-top: solid 1px #351f67;
+			padding: 0;
+			line-height: 46px;
+			color: #666;
+		}
+
+		#page-util a {
+			line-height: 46px;
+			color: #666;
+			font-size: 15px;
+			position: relative;
+			top: -1px;
+		}
+
+		#page-util img {
+			position: relative;
+			top: -2px;
+		}
+
+		#page-util-others {
+			display: block;
+			position: relative;
+			top: 4px;
+			width: 100%;
+			height: 43px;
+			background-color: rgb(51, 158, 178);
+			padding: 0;
+			line-height: 46px;
+			color: #666;
+		}
+		
+	
+		#page-util-others a {
+			position: relative;
+			top: -4px;
+			font-family: NanumBarunGothic, Dotum, 돋움, sans-serif;
+			color: rgb(255, 255, 255);
+			font-size: 15px;
+		}
+
+		.has_sub_menu.on {
+			border-bottom: 4px solid rgb(51, 158, 178);
+			height: 41px;
+		}
+		.page-util-text {
+			margin: 0 auto;
+    		width: 1100px;
+		}
+		/*여기까지가 header. 아래에서부터 본문 내용 입력*/
+		#footer{
+		height:200px;
+		width:100%;
+		/* margin:0 -8px 0 -8px; */
+		background-color:#f8f8fa;
+}
+.container1 {
+			width: 1100px;
+			margin: 0px auto;
+			margin-top: 646px;
+}
+a {
+			text-decoration: none
+}
+.footerlink{
+		display:block;
+		color:#666;
+		line-height:30px;
+		font-size:.8em;
+		margin:0 10px 10px 0;
+		float:left;
+		}
+		#footerbox{
+		overflow:hidden;
+		box-sizing:border-box;
+		width:106px;
+		height:30px;
+		margin:5px 0 0 0;
+		padding:0;
+		text-align:center;
+		display:block;
+		line-height:28px;
+		font-size:.8667em;
+		color:#666;
+		border:1px solid #d8d9db;
+		border-radius:30px;
+		float:right;
+		}
+		#footerbox1{
+		width:100%;
+		height:30px;
+		padding:30px 0;
+		margin:0;
+		}
+		#footerbox2{
+		width:100%;
+		height:60px;
+		display:block;
+		margin:0;
+		}
+		#footerbox3{
+		width:185px;
+		height:30px;
+		display:block;
+		margin:0;
+		float:right;
+		position: relative;
+    	bottom: 60px;
+    	right: -168px;
+		}
+		
+		#footerbox4{
+		width:85%;
+		height:60px;
+		display:block;
+		margin:0;
+		float:left;
+		}
+		.footertext{
+		font-size:.7777em; 
+		font-weight:400; 
+		color:#444; 
+		float:left; 
+		vertical-align:top; 
+		display:inline-block;
+		margin:0;
+		}
+		.footerlink1{
+		display:block;
+		margin:0 5px 0 0;
+		width:31px;
+		height:30px;
+		float:right;
+		}
+.post-link-box {
+	width: 100%;
+    height: 331px;
+    padding: 29px 0 0 0;
+    background: url(./image/movie_post/bg-movie-post-top.png) no-repeat center 0;
+    float:left;
+}
+.inner-warp {
+	width:1100px;
+	margin: 0 auto;
+	position: relative;
+	height: 250px;	
+}
+.inner-top {
+	width: 1100px;
+    padding: 0 0 26px 0;
+    height: 30px;
+}
+.post-lank {
+	height: 194px;
+    float: left;
+    width: 965px;
+    position: absolute;
+    margin: 0 0 0 -58px;
+}
+.post-count {
+	top: 0;
+    left: 0;
+    z-index: 2;
+    width: 135px;
+    height: 194px;
+    text-align: center;
+    float: left;
+    margin-left: 58px;
+    color:#fff;
+}
+.post-link {
+	width: 135px;
+    height: 194px;
+    float: left;
+}
+.lank {
+	margin:0;
+	padding:0;
+	float: left;
+	position: absolute;
+	font-size: 1.6em;
+    font-style: italic;
+    margin-left: 10px;
+}
+.post-box {
+	float: left;
+    position: absolute;
+    width: 135px;
+    height: 120px;
+    padding-top: 73px;
+}
+.post-box p {
+	padding:0;
+	margin:0;
+}
+.inner-top h2 {
+	margin:0;
+	padding:0;
+	float: left;
+}
+.inner-top a {
+	color: #fff;
+	background-color:#503396;
+	text-align: center;
+	border-radius: 4px;
+	border: 1px solid #503396;
+	float:right;
+	line-height: 34px;
+	height:36px;
+	font-size:14px;
+	width: 121px;
+}
+.post-link img {
+	width: 135px;
+    height: 194px;
+}
+.counting {
+	font-size: 2.1333em;
+    font-family: Roboto;
+    color: #fff;
+    font-weight: 300;
+}
+.tit {
+	font-size: .8667em;
+    line-height: 1.1;
+    color: #fff;
+}
+.inner-btm{
+	margin: 363px auto 0 auto;
+    width: 1100px;
+    height: 1000px;
+}
+.tab-sorting{
+	width: 1100px;
+	height: 35px;
+	text-align: center;
+}
+.movie-post-list{
+	float: right;
+    width: 1160px;
+    height: 1315px;
+    position: relative;
+}
+.grid-item{
+	float: left;
+    width: 230px;
+    margin: 0 0 40px 60px;
+    height: 368px;
+    position: relative;
+}
+.btn-more{
+	float: left;
+    width: 1100px;
+    padding-top: 40px;
+}
+.set-btn{
+	display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    border: 0;
+    border-bottom: 1px solid #eaeaea;
+    background-color: transparent;
+    color: #666;
+}
+.font-gblue {
+	color: #01738b;
+}
+.line-solid {
+	content: '';
+    display: inline-block;
+    right: -14px;
+    top: 2px;
+    width: 1px;
+    height: 14px;
+    background-color: #d8d9db;
+}
+.sorting-btn {
+	position: relative;
+    display: inline-block;
+    margin: 10px 6px 0 6px;
+    padding: 0 0 5px 0;
+    border: 0;
+    color: #555;
+    font-size: 15px;
+    font-weight: 400;
+    border-bottom: 2px solid #fff;
+    background-color: #fff;
+}
+.sorting-btn.on {
+	color: #351f66;
+    border-bottom: 2px solid #503396;
+    font-weight: 400;
+}
+.list-right {
+	float: right;
+    width: 330px;
+    height: 36px;
+    text-align: center;
+}
+.list-btn {
+	display: block;
+    color: #666;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    float:left;
+    line-height: 36px;
+}
+.list-btn.on {
+	color: #222;
+    font-weight: 700;
+}
+.line-box {
+	float: left;
+    display: block;
+    width: 1px;
+    height: 12px;
+    background-color: #d8d9db;
+    margin: 12px 8px 12px 8px;	
+}
+.input-box {
+	width: 220px;
+    height: 34px;
+    float: left;
+    margin: 0;
+    border: 1px solid #d8d9db;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+.input-text {
+	width: 178px;
+    height: 32px;
+    float: left;
+    border: none;
+    margin-left: 6px;
+}
+.btn-search {
+	background-image: url(./image/member_img/btn-search-input.png);
+    width: 32px;
+    height: 34px;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-position: center;
+    border: none;
+}
+.result-count {
+	position: relative;
+    float: left;
+    margin: 0;
+    padding-top: 15px;
+    line-height: 1.1;
+    vertical-align: top;
+}
+.board-list-util {
+	margin: 30px 0 15px 0;
+    text-align: right;
+    width: 1100px;
+    height: 50px;
+    float: left;
+}
+
+.img {
+	border: 1px solid transparent;
+    border-radius: 10px 10px 0 0;
+    background-color: #f5f5f5;
+    height: 171px;
+}
+.img img {
+	width: 100%;
+    height: auto;
+    min-height: 169px;
+    border: 1px solid transparent;
+    border-radius: 10px 10px 0 0;
+}
+.post-open {
+	display: block;
+    width: 100%;
+    height: 100%;
+}
+.post-cont {
+	position: relative;
+    padding: 20px;
+    border: 1px solid #ebebeb;
+    border-top: 0;
+    border-radius: 0 0 10px 10px;
+    background-color: #fff;
+    float: left;
+    font-size:15px;
+}
+.post-cont a {
+	color: #444;
+}
+.writer {
+	float: left;
+	padding: 0 0 15px 0;
+}
+.movie-post-tit {
+	float: left;
+	padding: 0 0 15px 0;
+}
+.movie-post-txt {
+	float: left;
+	padding: 0 0 15px 0;
+}
+.time {
+	float: left;
+    width: 180px;
+}
+.condition {
+	float: left;
+    width: 100px;
+    padding-top: 20px;
+}
+.like-btn {
+	display: block;
+    float: left;
+    margin-right: 15px;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+.post-comment {
+	display: block;
+    float: left;
+    margin-right: 15px;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}	
+.icon-like {
+	width: 16px;
+    height: 17px;
+    background-image: url(./image/movie_post/ico-like.png);
+    display: inline-block;
+}
+
+.icon-reply {
+	width: 16px;
+    height: 15px;
+    background-image: url(./image/movie_post/ico-reply.png);
+    display: inline-block;
+}
+.more-ico {
+	width: 12px;
+    height: 7px;
+    background-image: url(./image/movie_post/ico-btn-more-arr.png);
+    margin-left: 6px;
+    position: absolute;
+    float: left;
+    margin-top: 7px;
+}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<div id="header">
+			<div class="left">
+				<a href="#" class="left mini-nav">
+					VIP LOUNGE
+				</a>
+				<a href="#" class="left mini-nav">
+					멤버십
+				</a>
+				<a href="#" class="left mini-nav" style="margin-right:5px;">
+					고객센터
+				</a>
+				<br />
+				<a href="#"><img src="./image/ico-sitemap.png" class="left1 icon-height"
+						style="margin-right:8px; margin-left:5px;">
+				</a>
+				<a href="#"><img src="./image/ico-search.png" class="left1 icon-height"
+						style="margin-right:80px; margin-left:11px" />
+				</a>
+				<a href="#">
+					<b class="left1 font nav" style="margin-right:50px; margin-left:18px;">영화</b>
+				</a>
+				<a href="#">
+					<b class="left1 font nav" style="margin-right:50px; margin-left:6px;">예매</b>
+				</a>
+				<a href="#">
+					<b class="left1 font nav" style="margin-left:6px;">극장</b>
+				</a>
+			</div>
+
+			<div class='left' style="width: 200px; margin: 0px auto;">
+				<a href="#">
+					<img src="./image/logo_nega_yg.png" style="margin-top:6px; margin-left:82px;" />
+				</a>
+			</div>
+
+
+
+			<div class="right">
+				<a href="#" class="right mini-nav">
+					빠른예매
+				</a>
+				<a href="#" class="right mini-nav">
+					회원가입
+				</a>
+				<a href="#" class="right mini-nav">
+					로그인
+				</a>
+				<br />
+				<a href="#">
+					<img src="./image/ico-mymega.png" class="right1 icon-height"
+						style="margin-left:8px; margin-right:9px;" />
+				</a>
+				<a href="#">
+					<img src="./image/ico-schedule.png" class="right1 icon-height"
+						style="margin-top: 6px; margin-left:80px; margin-right:5px;" />
+				</a>
+				<a href="#">
+					<b class="right1 font nav has_sub_menu on" style="margin-left:50px; margin-right:-9px;">혜택</b>
+				</a>
+				<a href="#">
+					<b class="right1 font nav" style="margin-left:50px; margin-right:8px;">스토어</b>
+				</a>
+				<a href="#">
+					<b class="right1 font nav" style="margin-right:7px;">이벤트</b>
+				</a>
+			</div>
+			<div style="clear:both"></div>
+
+		</div>
+	</div>
+
+
+	<!--기본 nav 상태(핑크색)-->
+
+	<div id='page-util'>
+		<div class="page-util-text">
+		<img src='./image/bg-location-home.png'>
+		<img style='margin-left: 5px;' src='./image/bg-location-arr.png'>
+		<a href=''>영화</a>
+		<img style='margin-left: 5px;' src='./image/bg-location-arr.png'>
+		<a href=''>무비포스트</a>
+		</div>
+ 	</div> 
+
+	<!-- <div id='page-util'>
+		<img style='margin-left: 394px;' src='./image/bg-location-home.png'>
+		<img style='margin-left: 5px;' src='./image/bg-location-arr.png'>
+		<a href='#' style='margin-left: 2px;'>예매</a>
+		<img style='margin-left: 2px;' src='./image/bg-location-arr.png'>
+		<a href='#' style='margin-left: 4px;'>빠른예매</a>
+	</div> -->
+
+	<!-- <div id='page-util'>
+		<img style='margin-left: 394px;' src='./image/bg-location-home.png'>
+		<img style='margin-left: 5px;' src='./image/bg-location-arr.png'>
+		<a href='#' style='margin-left: 2px;'>영화</a>
+		<img style='margin-left: 2px;' src='./image/bg-location-arr.png'>
+		<a href='#' style='margin-left: 3px;'>무비포스트</a>
+	</div> -->
+
+	<!-- <div id='page-util'>
+		<img style='margin-left: 394px;' src='./image/bg-location-home.png'>
+		<img style='margin-left: 5px;' src='./image/bg-location-arr.png'>
+		<a href='#' style='margin-left: 2px;'>극장</a>
+		<img style='margin-left: 2px;' src='./image/bg-location-arr.png'>
+		<a href='#' style='margin-left: 4px;'>전체극장</a>
+	</div> -->
+
+
+	<!--마우스를 갖다 댄 nav 상태(초록색)-->
+	<!--<div id="page-util-others">
+		<a href='#' title='전체영화' style='margin-left: 513px;'>전체영화</a>
+		<a href='#' title='무비포스트' style='margin-left: 13px;'>무비포스트</a>
+	</div> -->
+
+	<!-- <div id="page-util-others">
+		<a href='#' title='전체영화' style='margin-left: 602px;'>빠른예매</a>
+		<a href='#' title='무비포스트' style='margin-left: 13px;'>상영시간표</a>
+	</div> -->
+
+	<!-- <div id="page-util-others">
+		<a href='#' title='전체영화' style='margin-left: 695px;'>전체극장</a>
+		<a href='#' title='무비포스트' style='margin-left: 13px;'>특별관</a>
+	</div> -->
+
+	<!-- <div id="page-util-others">
+		<a href='#' title='전체영화' style='margin-left: 1083px;'>진행중 이벤트</a>
+	</div> -->
+
+	<!-- <div id="page-util-others">
+		<a href='#' title='전체영화' style='margin-left: 1252px;'>멤버십 안내</a>
+		<a href='#' title='무비포스트' style='margin-left: 13px;'>제휴 할인</a>
+	</div> -->
+
+
+	<!--여기까지가 header. 아래에서부터 본문 내용 입력	-->
+	<div class="post-link-box">
+		<div class="inner-warp">
+			<div class="inner-top">
+				<h2>무비 포스트</h2>
+				<a href="#">무비 포스트 작성
+				</a>
+			</div>
+			<div class="post-lank">
+				<div class="post-count">
+					<a class="post-link">
+						<img src="./image/movie_post/fl6qV6UG8faiMppMO4LZp9VZlohic35T_150.jpg">
+					</a>
+					<p class="lank">1</p>
+					<div class="post-box">
+						<p class="tit">POST</p>
+						<p class="counting">450</p>
+					</div>
+				</div>
+				<div class="post-count">
+					<a href="#" class="post-link">
+						<img src="./image/movie_post/gD32uTBzzyhwn3jfo0Dreen21yOreg1G_150.jpg">
+					</a>
+					<p class="lank">2</p>
+					<div class="post-box">
+						<p class="tit">POST</p>
+						<p class="counting">352</p>
+					</div>
+				</div>
+				<div class="post-count">
+					<a href="#" class="post-link">
+						<img src="./image/movie_post/FhsmDr5hfwwoaHQ16TVMygsYjh7dDRhD_150.jpg">
+					</a>
+					<p class="lank">3</p>
+					<div class="post-box">
+						<p class="tit">POST</p>
+						<p class="counting">319</p>
+					</div>
+				</div>
+				<div class="post-count">
+					<a href="#" class="post-link">	
+						<img src="./image/movie_post/5kxrrz7YXuRfySllsNV3pFwar5WP9vhn_150.jpg">
+					</a>
+					<p class="lank">4</p>
+					<div class="post-box">
+						<p class="tit">POST</p>
+						<p class="counting">273</p>
+					</div>
+				</div>
+				<div class="post-count">
+					<a href="#" class="post-link">
+						<img src="./image/movie_post/tP5BVdJ82rerjg37crDMrNpehEFcPfuZ_150.jpg">
+					</a>
+					<p class="lank">5</p>
+					<div class="post-box">
+						<p class="tit">POST</p>
+						<p class="counting">87</p>
+					</div>
+				</div>
+			</div>
+			<div class="post-count" style="float:right;">
+				<a href="#" class="post-link">
+					<img src="./image/movie_post/bg-movie-post-no-login.png">
+				</a>
+					<p class="lank">MY</p>
+					<div class="post-box">
+						<p class="tit">MY POST</p>
+						<p>로그인 하기</p>
+					</div>
+			</div>
+		</div>
+	</div>
+	<div class="inner-btm">
+			<div class="tab-sorting">
+				<button class="sorting-btn on">
+				모든영화
+				</button>
+				<div class="line-solid"></div>
+				<button class="sorting-btn">
+				현재상영작
+				</button>
+				<div class="line-solid"></div>
+				<button class="sorting-btn">
+				내가 본 영화
+				</button>
+				<div class="line-solid"></div>
+				<button class="sorting-btn">
+				구독중인 포스트
+				</button>
+			</div>
+			<div class="board-list-util">
+				<p class="result-count">
+				<strong>
+				전체
+				<b class="font-gblue">180,079</b>
+				건
+				</strong>
+				</p>
+				<div class="list-right">
+					<button class="list-btn on">최신순</button>
+					<div class="line-box"></div>
+						<button class="list-btn ">공감순</button>
+					<div class="input-box">
+						<input class="input-text" type="text" title="제목, 장르, 감독, 배우, 아이디" placeholder="제목, 장르, 감독, 배우, 아이디">
+						<button type="button" class="btn-search"></button>
+					</div>
+				</div>
+			</div>
+			<div class="movie-post-list">
+				<div class="grid-item">
+					<div class="img">
+						<a href="#" class="post-open">
+						<img src="./image/movie_post/movie_long/OSwPwX3tSSnxJZMGljSs2tZESq6uFliO_230.jpg">
+						</a>
+					</div>
+					<div class="post-cont">
+						<a href="#" class="writer">
+							blingjeehy**
+						</a>
+						<a href="#" class="movie-post-tit">
+							킬링 카인드: 킬러의 수제자
+						</a>
+						<a href="#" class="movie-post-txt">
+							친숙한 재밌는 영화..
+						</a>
+						<a href="#" class="time">
+							18 분전
+						</a>
+						<div class="condition">
+							<button class="like-btn">
+							<i class="icon-like"></i>
+							<span style="font-size:15px;">0</span>
+							</button>
+							<a class="post-comment">
+							<i class="icon-reply"></i>
+							<span>0</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="img">
+						<a href="#" class="post-open">
+						<img src="./image/movie_post/movie_long/OSwPwX3tSSnxJZMGljSs2tZESq6uFliO_230.jpg">
+						</a>
+					</div>
+					<div class="post-cont">
+						<a href="#" class="writer">
+							blingjeehy**
+						</a>
+						<a href="#" class="movie-post-tit">
+							킬링 카인드: 킬러의 수제자
+						</a>
+						<a href="#" class="movie-post-txt">
+							친숙한 재밌는 영화..
+						</a>
+						<a href="#" class="time">
+							18 분전
+						</a>
+						<div class="condition">
+							<button class="like-btn">
+							<i class="icon-like"></i>
+							<span style="font-size:15px;">0</span>
+							</button>
+							<a class="post-comment">
+							<i class="icon-reply"></i>
+							<span>0</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="img">
+						<a href="#" class="post-open">
+						<img src="./image/movie_post/movie_long/OSwPwX3tSSnxJZMGljSs2tZESq6uFliO_230.jpg">
+						</a>
+					</div>
+					<div class="post-cont">
+						<a href="#" class="writer">
+							pat80**
+						</a>
+						<a href="#" class="movie-post-tit">
+							킬링 카인드: 킬러의 수제자
+						</a>
+						<a href="#" class="movie-post-txt">
+							오, 기대안했는데 재미있는 영화 좋았어요
+						</a>
+						<a href="#" class="time">
+							1 시간전
+						</a>
+						<div class="condition">
+							<button class="like-btn">
+							<i class="icon-like"></i>
+							<span style="font-size:15px;">0</span>
+							</button>
+							<a class="post-comment">
+							<i class="icon-reply"></i>
+							<span>0</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="img">
+						<a href="#" class="post-open">
+						<img src="./image/movie_post/movie_long/OSwPwX3tSSnxJZMGljSs2tZESq6uFliO_230.jpg">
+						</a>
+					</div>
+					<div class="post-cont">
+						<a href="#" class="writer">
+							blingjeehy**
+						</a>
+						<a href="#" class="movie-post-tit">
+							킬링 카인드: 킬러의 수제자
+						</a>
+						<a href="#" class="movie-post-txt">
+							친숙한 재밌는 영화..
+						</a>
+						<a href="#" class="time">
+							18 분전
+						</a>
+						<div class="condition">
+							<button class="like-btn">
+							<i class="icon-like"></i>
+							<span style="font-size:15px;">0</span>
+							</button>
+							<a class="post-comment">
+							<i class="icon-reply"></i>
+							<span>0</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="img">
+						<a href="#" class="post-open">
+						<img src="./image/movie_post/movie_long/OSwPwX3tSSnxJZMGljSs2tZESq6uFliO_230.jpg">
+						</a>
+					</div>
+					<div class="post-cont">
+						<a href="#" class="writer">
+							blingjeehy**
+						</a>
+						<a href="#" class="movie-post-tit">
+							킬링 카인드: 킬러의 수제자
+						</a>
+						<a href="#" class="movie-post-txt">
+							친숙한 재밌는 영화..
+						</a>
+						<a href="#" class="time">
+							18 분전
+						</a>
+						<div class="condition">
+							<button class="like-btn">
+							<i class="icon-like"></i>
+							<span style="font-size:15px;">0</span>
+							</button>
+							<a class="post-comment">
+							<i class="icon-reply"></i>
+							<span>0</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="img">
+						<a href="#" class="post-open">
+						<img src="./image/movie_post/movie_long/OSwPwX3tSSnxJZMGljSs2tZESq6uFliO_230.jpg">
+						</a>
+					</div>
+					<div class="post-cont">
+						<a href="#" class="writer">
+							blingjeehy**
+						</a>
+						<a href="#" class="movie-post-tit">
+							킬링 카인드: 킬러의 수제자
+						</a>
+						<a href="#" class="movie-post-txt">
+							친숙한 재밌는 영화..
+						</a>
+						<a href="#" class="time">
+							18 분전
+						</a>
+						<div class="condition">
+							<button class="like-btn">
+							<i class="icon-like"></i>
+							<span style="font-size:15px;">0</span>
+							</button>
+							<a class="post-comment">
+							<i class="icon-reply"></i>
+							<span>0</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="img">
+						<a href="#" class="post-open">
+						<img src="./image/movie_post/movie_long/OSwPwX3tSSnxJZMGljSs2tZESq6uFliO_230.jpg">
+						</a>
+					</div>
+					<div class="post-cont">
+						<a href="#" class="writer">
+							blingjeehy**
+						</a>
+						<a href="#" class="movie-post-tit">
+							킬링 카인드: 킬러의 수제자
+						</a>
+						<a href="#" class="movie-post-txt">
+							친숙한 재밌는 영화..
+						</a>
+						<a href="#" class="time">
+							18 분전
+						</a>
+						<div class="condition">
+							<button class="like-btn">
+							<i class="icon-like"></i>
+							<span style="font-size:15px;">0</span>
+							</button>
+							<a class="post-comment">
+							<i class="icon-reply"></i>
+							<span>0</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="img">
+						<a href="#" class="post-open">
+						<img src="./image/movie_post/movie_long/OSwPwX3tSSnxJZMGljSs2tZESq6uFliO_230.jpg">
+						</a>
+					</div>
+					<div class="post-cont">
+						<a href="#" class="writer">
+							blingjeehy**
+						</a>
+						<a href="#" class="movie-post-tit">
+							킬링 카인드: 킬러의 수제자
+						</a>
+						<a href="#" class="movie-post-txt">
+							친숙한 재밌는 영화..
+						</a>
+						<a href="#" class="time">
+							18 분전
+						</a>
+						<div class="condition">
+							<button class="like-btn">
+							<i class="icon-like"></i>
+							<span style="font-size:15px;">0</span>
+							</button>
+							<a class="post-comment">
+							<i class="icon-reply"></i>
+							<span>0</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="img">
+						<a href="#" class="post-open">
+						<img src="./image/movie_post/movie_long/OSwPwX3tSSnxJZMGljSs2tZESq6uFliO_230.jpg">
+						</a>
+					</div>
+					<div class="post-cont">
+						<a href="#" class="writer">
+							blingjeehy**
+						</a>
+						<a href="#" class="movie-post-tit">
+							킬링 카인드: 킬러의 수제자
+						</a>
+						<a href="#" class="movie-post-txt">
+							친숙한 재밌는 영화..
+						</a>
+						<a href="#" class="time">
+							18 분전
+						</a>
+						<div class="condition">
+							<button class="like-btn">
+							<i class="icon-like"></i>
+							<span style="font-size:15px;">0</span>
+							</button>
+							<a class="post-comment">
+							<i class="icon-reply"></i>
+							<span>0</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="img">
+						<a href="#" class="post-open">
+						<img src="./image/movie_post/movie_long/OSwPwX3tSSnxJZMGljSs2tZESq6uFliO_230.jpg">
+						</a>
+					</div>
+					<div class="post-cont">
+						<a href="#" class="writer">
+							blingjeehy**
+						</a>
+						<a href="#" class="movie-post-tit">
+							킬링 카인드: 킬러의 수제자
+						</a>
+						<a href="#" class="movie-post-txt">
+							친숙한 재밌는 영화..
+						</a>
+						<a href="#" class="time">
+							18 분전
+						</a>
+						<div class="condition">
+							<button class="like-btn">
+							<i class="icon-like"></i>
+							<span style="font-size:15px;">0</span>
+							</button>
+							<a class="post-comment">
+							<i class="icon-reply"></i>
+							<span>0</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="img">
+						<a href="#" class="post-open">
+						<img src="./image/movie_post/movie_long/OSwPwX3tSSnxJZMGljSs2tZESq6uFliO_230.jpg">
+						</a>
+					</div>
+					<div class="post-cont">
+						<a href="#" class="writer">
+							blingjeehy**
+						</a>
+						<a href="#" class="movie-post-tit">
+							킬링 카인드: 킬러의 수제자
+						</a>
+						<a href="#" class="movie-post-txt">
+							친숙한 재밌는 영화..
+						</a>
+						<a href="#" class="time">
+							18 분전
+						</a>
+						<div class="condition">
+							<button class="like-btn">
+							<i class="icon-like"></i>
+							<span style="font-size:15px;">0</span>
+							</button>
+							<a class="post-comment">
+							<i class="icon-reply"></i>
+							<span>0</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="img">
+						<a href="#" class="post-open">
+						<img src="./image/movie_post/movie_long/OSwPwX3tSSnxJZMGljSs2tZESq6uFliO_230.jpg">
+						</a>
+					</div>
+					<div class="post-cont">
+						<a href="#" class="writer">
+							blingjeehy**
+						</a>
+						<a href="#" class="movie-post-tit">
+							킬링 카인드: 킬러의 수제자
+						</a>
+						<a href="#" class="movie-post-txt">
+							친숙한 재밌는 영화..
+						</a>
+						<a href="#" class="time">
+							18 분전
+						</a>
+						<div class="condition">
+							<button class="like-btn">
+							<i class="icon-like"></i>
+							<span style="font-size:15px;">0</span>
+							</button>
+							<a class="post-comment">
+							<i class="icon-reply"></i>
+							<span>0</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+				<div class="btn-more">
+				<button class="set-btn">
+				더보기
+					<i class="more-ico"></i>
+				</button>
+			</div>
+		</div>
+			
+	<!-- footer 입력 -->
+	<div id="footer">
+    	<div class="container1">
+	    		<div id="footerbox1">
+	    			<a href="https://www.megabox.co.kr/megaboxinfo" class="footerlink">회사소개</a>
+	    			<a href="https://www.megabox.co.kr/recruit" class="footerlink">인재채용</a>
+	    			<a href="https://www.megabox.co.kr/socialcontribution" class="footerlink">사회공헌</a>
+	    			<a href="https://www.megabox.co.kr/partner" class="footerlink">제휴/광고/부대사업문의</a>
+		    		<a href="https://www.megabox.co.kr/support/terms" class="footerlink"><b>개인정보처리방침</b></a>
+		    		<a href="https://jebo.joonganggroup.com/main.do" class="footerlink">윤리경영</a>
+	    			<a href="#" id="footerbox"><img src="./image/ico-footer-search.png" style="margin:-4px 0" />극장찾기</a>
+	    		</div>
+    		
+	    		<div id="footerbox4">    		
+		    		<div id="footerbox2">
+		    			<img src="./image/logo-opacity_new2.png" style="margin:0 15px 0 0; float:left;"/>
+		    			<p class="footertext" style="margin-top:3px">
+		    			 서울특별시 마포구 월드컵로 240, 지상 2층(성산동, 월드컵주경기장) ARS 1544-0070</p>
+		    			 <p class="footertext">
+		    			 대표자명 김진선 · 개인정보보호책임자 조상연 · 사업자등록번호 211-86-59478 · 통신판매업신고번호 제 833호
+		    			 </p>
+		    			 <p class="footertext">
+		    			 COPYRIGHT © MegaboxJoongAng, Inc. All rights reserved
+		    			 </p>
+		    		</div>
+    			 
+		    		<div id="footerbox3">
+		    		     <a href="https://apps.apple.com/kr/app/megabox/id894443858?l=ko&ls=1">
+		    			 	<div class="footerlink1" style="background-image:url(https://img.megabox.co.kr/static/pc/images/common/ico/ico-appstore.png)"></div>
+		    			 </a>
+		    			 <a href="https://play.google.com/store/apps/details?id=com.megabox.mop">
+		    			 	<div class="footerlink1" style="background-image:url(https://img.megabox.co.kr/static/pc/images/common/ico/ico-googleplay.png)"></div>
+		    			 </a>
+		    			 <a href="https://www.instagram.com/megaboxon">
+		    			 	<div class="footerlink1" style="background-image:url(https://img.megabox.co.kr/static/pc/images/common/ico/ico-instagram.png)"></div>
+		    			 </a>
+		    			 <a href="https://www.facebook.com/megaboxon">
+		    			 	<div class="footerlink1" style="background-image:url(https://img.megabox.co.kr/static/pc/images/common/ico/ico-facebook.png)"></div>
+		    			 </a>
+		    			 <a href="https://twitter.com/megaboxon">
+		    			 	<div class="footerlink1" style="background-image:url(https://img.megabox.co.kr/static/pc/images/common/ico/ico-twitter.png)"></div>
+		    			 </a>
+		    		</div>
+    		 </div>
+    		
+    		
+    	</div>
+ </div>
+
+
+
+
+</body>
+
+</html>

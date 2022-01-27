@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="shortcut icon" href="./image/megabox_logo.ico">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MEET PLAY SHARE, 메가박스</title>
+	<style>
+		.container {
+			width: 1100px;
+			margin: 0px auto;
+
+		}
+		#header1 {
+			width: 100%;
+			height: 42px;
+			background-color: #f8f8fa;
+			margin: 0px;
+		}
+
+		a {
+			text-decoration: none
+		}
+
+		.icon-height {
+			margin-top: 13px;
+		}
+
+		.left {
+			float: left;
+			margin-right: 20px;
+		}
+
+		.right {
+			float: right;
+			margin-left: 20px;
+		}
+
+		.mini-nav {
+			font-size: 13px;
+			font-family: NanumBarunGothic, Dotum, 돋움, sans-serif;
+			color: rgb(68, 68, 68);
+		}
+
+		.nav {
+			margin-top: 10px;
+		}
+
+		.font {
+			font-size: 17px;
+			color: black;
+			font-weight: bold;
+			font-family: NanumBarunGothicf;
+		}
+
+		.left1 {
+			float: left;
+		}
+
+		.right1 {
+			float: right;
+		}
+
+		#page-util {
+			display: block;
+			position: relative;
+			top: 4px;
+			width: 100%;
+			height: 42px;
+			background-color: #f8f8fa;
+			border-top: solid 1px #351f67;
+			padding: 0;
+			line-height: 46px;
+			color: #666;
+		}
+
+		#page-util a {
+			line-height: 46px;
+			color: #666;
+			font-size: 15px;
+			position: relative;
+			top: -1px;
+		}
+
+		#page-util img {
+			position: relative;
+			top: -2px;
+		}
+
+		#page-util-others {
+			display: block;
+			position: relative;
+			top: 4px;
+			width: 100%;
+			height: 43px;
+			background-color: rgb(51, 158, 178);
+			padding: 0;
+			line-height: 46px;
+			color: #666;
+		}
+		
+	
+		#page-util-others a {
+			position: relative;
+			top: -4px;
+			font-family: NanumBarunGothic, Dotum, 돋움, sans-serif;
+			color: rgb(255, 255, 255);
+			font-size: 15px;
+		}
+
+		.has_sub_menu.on {
+			border-bottom: 4px solid rgb(51, 158, 178);
+			height: 41px;
+		}
+
+		/*여기까지가 header. 아래에서부터 본문 내용 입력*/
+#footer{
+		height:200px;
+		width:100%;
+		/* margin:0 -8px 0 -8px; */
+		background-color:#f8f8fa;
+		}
+		.container {
+			width: 1100px;
+			margin: 0px auto;
+
+		}
+		a {
+			text-decoration: none
+		}
+.footerlink{
+		display:block;
+		color:#666;
+		line-height:30px;
+		font-size:.8em;
+		margin:0 10px 10px 0;
+		float:left;
+		}
+		#footerbox{
+		overflow:hidden;
+		box-sizing:border-box;
+		width:106px;
+		height:30px;
+		margin:5px 0 0 0;
+		padding:0;
+		text-align:center;
+		display:block;
+		line-height:28px;
+		font-size:.8667em;
+		color:#666;
+		border:1px solid #d8d9db;
+		border-radius:30px;
+		float:right;
+		}
+		#footerbox1{
+		width:100%;
+		height:30px;
+		padding:30px 0;
+		margin:0;
+		}
+		#footerbox2{
+		width:100%;
+		height:60px;
+		display:block;
+		margin:0;
+		}
+		#footerbox3{
+		width:185px;
+		height:30px;
+		display:block;
+		margin:0;
+		float:right;
+		position: relative;
+    	bottom: 60px;
+    	right: -168px;
+		}
+		
+		#footerbox4{
+		width:85%;
+		height:60px;
+		display:block;
+		margin:0;
+		float:left;
+		}
+		.footertext{
+		font-size:.7777em; 
+		font-weight:400; 
+		color:#444; 
+		float:left; 
+		vertical-align:top; 
+		display:inline-block;
+		margin:0;
+		}
+		.footerlink1{
+		display:block;
+		margin:0 5px 0 0;
+		width:31px;
+		height:30px;
+		float:right;
+		}
+		/* ---------------여기까지가 footer------------------------- */
+.inner-wrap {
+	background-color:#fff; 
+	width: 1100px;
+	height:1330px;
+	padding:40px;
+	margin:0 auto;
+	
+}
+.inb-area {
+	float: left;
+	width: 200px;
+	height: 700px;
+	background-color:#fff;
+	box-sizing: border-box;
+	border: 1px solid #d8d9db;
+	border-radius: 5px;
+	
+}
+.my-megabox-main{
+	float: right;
+	width: 840px;
+	height: 1248.5px;
+	background-color:#fff;
+	font-family: NanumBarunGothic,Dotum,'돋움',sans-serif;
+}
+.inb-area .tit {
+	display: block;
+    width: 100%;
+    font-size: 18px;
+    line-height: 90px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    background-color:#000000;
+    border-radius: 10px 10px 0 0;
+    
+}
+.area-a {
+	display: block;
+    color: #222;
+    padding: 10px 15px;
+    font-weight: 400;
+    background-color: #f2f4f5;
+    border: 1px solid #d8d9db;
+	border-radius: 5px;
+	font-size:15px;
+	font-family: NanumBarunGothic,Dotum,'돋움',sans-serif;
+	border-bottom: none;
+}
+.area-b {
+	padding: 2px 0 2px 24px;
+    color: #666;
+    display: block;
+    font-size:15px;
+    font-weight: 400;
+    font-family: NanumBarunGothic,Dotum,'돋움',sans-serif;
+}
+
+.area-box {
+	padding: 20px 0;
+    width: 200px;
+}
+
+				/* ----------------------여기 까지 매가박스 왼쪽 리스트------------------------ */ 
+.contents {
+	float:right;
+	margin:0;
+	width:840px;
+	height: 426.3px;
+}
+.movie-tit {
+	padding: 0 0 26px 0;
+    font-size: 1.8666em;
+    font-weight: 400;
+    letter-spacing: -1px;
+    line-height: 1.1;
+    color: #222;
+    margin:0px;
+    
+}
+.btn {
+	width: 166px;
+    height: 34px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 34px;
+    text-align: center;
+    float: left;
+    border: 1px solid #d8d9db;
+}
+.btn a {
+	color:#444444;
+}
+.btn.on {
+	height:34px;
+	width:166px;
+	float:left;
+	border: 1px solid #d8d9db;
+	text-align: center;
+    line-height: 36px;
+	color: #fff;
+    background-color: #555;
+}
+.btn.on a {
+	color:#fff;
+}
+.btn-list {
+	width:840px;
+	height:50px;
+	margin-top:65px;
+	border: 1px solid #d8d9db;
+}
+.left-swiper-btn {
+	float:left;
+    border: 1px solid #d8d9db;
+    background-image: url(./image/member_img/btn-timeline-prev.png);
+   	width:31px;
+   	height:50px;
+   	background-position: center;
+}
+.right-swiper-btn {
+	float:right;
+	border: 1px solid #d8d9db;
+    background-image: url(./image/member_img/btn-timeline-next.png);
+   	width:31px;
+   	height:50px;
+   	background-position: center;
+}
+.date-btn {
+	width: 86.21px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 2px solid #503396;
+}
+.movie-timeline {
+text-align: center;
+    height: 128px;
+    line-height: 128px;
+}
+.tab-btn {
+	position: relative;
+    display: inline-block;
+    margin: 10px 12px 0 12px;
+    padding: 0 0 5px 0;
+    border: 0;
+    color: #555;
+    font-size: 1.0667em;
+    font-weight: 400;
+    border-bottom: 2px solid #fff;
+    background-color: #fff;
+   	display:block;
+}
+.tab-btn.on{
+	color: #351f66; 
+	border-bottom: 2px solid #503396;
+}
+
+.tab-sorting {
+    text-align: center;
+    float: left;
+    width: 840px;
+    height: 58px;
+    margin-top: 20px;
+}
+.result-count {
+	position: relative;
+    float: left;
+    margin: 0;
+    padding-top: 15px;
+    line-height: 1.1;
+    vertical-align: top;
+}
+.movie-list {
+	width: 840px;
+    height: 36px;
+    float: left;
+    margin-bottom: 15px;
+}
+.movie-post {
+	width: 840px;
+    height: 127px;
+    float: left;
+    text-align: center;
+    line-height: 127px;
+}
+.list-right {
+	float: right;
+    width: 330px;
+    height: 36px;
+    text-align: center;
+}
+.list-btn {
+	display: block;
+    color: #666;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    float:left;
+    line-height: 36px;
+}
+.list-btn.on {
+	color: #222;
+    font-weight: 700;
+}
+.line-box {
+	float: left;
+    display: block;
+    width: 1px;
+    height: 12px;
+    background-color: #d8d9db;
+    margin: 12px 8px 12px 8px;	
+}
+.input-box {
+	width: 230px;
+    height: 36px;
+    float: left;
+    margin: 0;
+    border: 1px solid #d8d9db;
+    border-radius: 3px;
+}
+.input-text {
+	width: 190px;
+    height: 30px;
+    float:left;
+}
+.btn-search {
+	background-image: url(./image/member_img/btn-search-input.png);
+    width: 32px;
+    height: 36px;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-position: center;
+}
+.board-list-movie-story {
+	margin: 30px 0 15px 0;
+    text-align: right;
+    width: 840px;
+    height: 50px;
+    float: left;
+    border-bottom: 1px solid;
+}
+.no-result {
+	float: left;
+    width: 840px;
+    height: 118px;
+    border-bottom: 1px solid #eaeaea;
+    text-align: center;
+    line-height: 108px;
+}
+.movie-tit {
+	padding: 0 0 26px 0;
+    font-size: 1.8666em;
+    font-weight: 400;
+    letter-spacing: -1px;
+    line-height: 1.1;
+    color: #222;
+    margin:0px;
+    
+}
+.dot-list {
+	margin: 0;
+    padding-left: 20px;
+    float:left;
+    
+}
+.btn-model-open {
+	float:right;
+	border: 1px solid;
+    border-radius: 4px;
+    vertical-align: middle;
+    background-color: #fff;
+    font-weight: 400;
+    height: 36px;
+    text-align: center;
+    line-height: 34px;
+    padding: 0 15px;
+}
+.mypage-info {
+	height: 56px;
+    padding: 0px;
+    margin-top: 70px;
+}
+.board-list-util {
+	margin: 30px 0 15px 0;
+    text-align: right;
+    width: 840px;
+    height: 50px;
+    float: left;
+}
+.like-movie {
+	float:left;
+	padding: 70px 0 0 0;
+	text-align:center;
+	width: 840px;
+}
+.ico-movie {
+    background-image: url(image/member_img/ico-movie-see.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    width:840px;
+    height:44px;
+}
+.font-gblue {
+	color: #01738b;
+}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<div id="header">
+			<div class="left">
+				<a href="#" class="left mini-nav">
+					VIP LOUNGE
+				</a>
+				<a href="#" class="left mini-nav">
+					멤버십
+				</a>
+				<a href="#" class="left mini-nav" style="margin-right:5px;">
+					고객센터
+				</a>
+				<br />
+				<a href="#"><img src="./image/ico-sitemap.png" class="left1 icon-height"
+						style="margin-right:8px; margin-left:5px;">
+				</a>
+				<a href="#"><img src="./image/ico-search.png" class="left1 icon-height"
+						style="margin-right:80px; margin-left:11px" />
+				</a>
+				<a href="#">
+					<b class="left1 font nav" style="margin-right:50px; margin-left:18px;">영화</b>
+				</a>
+				<a href="#">
+					<b class="left1 font nav" style="margin-right:50px; margin-left:6px;">예매</b>
+				</a>
+				<a href="#">
+					<b class="left1 font nav" style="margin-left:6px;">극장</b>
+				</a>
+			</div>
+
+			<div class='left' style="width: 200px; margin: 0px auto;">
+				<a href="#">
+					<img src="./image/logo_new2.png" style="margin-top:6px; margin-left:82px;" />
+				</a>
+			</div>
+
+
+
+			<div class="right">
+				<a href="#" class="right mini-nav">
+					빠른예매
+				</a>
+				<a href="#" class="right mini-nav">
+					회원가입
+				</a>
+				<a href="#" class="right mini-nav">
+					로그인
+				</a>
+				<br />
+				<a href="#">
+					<img src="./image/ico-mymega.png" class="right1 icon-height"
+						style="margin-left:8px; margin-right:9px;" />
+				</a>
+				<a href="#">
+					<img src="./image/ico-schedule.png" class="right1 icon-height"
+						style="margin-top: 6px; margin-left:80px; margin-right:5px;" />
+				</a>
+				<a href="#">
+					<b class="right1 font nav has_sub_menu on" style="margin-left:50px; margin-right:-9px;">혜택</b>
+				</a>
+				<a href="#">
+					<b class="right1 font nav" style="margin-left:50px; margin-right:8px;">스토어</b>
+				</a>
+				<a href="#">
+					<b class="right1 font nav" style="margin-right:7px;">이벤트</b>
+				</a>
+			</div>
+			<div style="clear:both"></div>
+
+		</div>
+	</div>
+
+
+	<!--기본 nav 상태(핑크색)-->
+
+	<div id='page-util'>
+		<img style='margin-left: 402px;' src='./image/bg-location-home.png'>
+		<img style='margin-left: 5px;' src='./image/bg-location-arr.png'>
+		<a href=''>나의 메가박스</a>
+		<img style='margin-left: 5px;' src='./image/bg-location-arr.png'>
+		<a href=''>나의 무비스토리</a>
+		<img style='margin-left: 5px;' src='./image/bg-location-arr.png'>
+		<a href=''>무</a>
+ 	</div> 
+
+	<!-- <div id='page-util'>
+		<img style='margin-left: 402px;' src='./image/bg-location-home.png'>
+		<img style='margin-left: 5px;' src='./image/bg-location-arr.png'>
+		<a href='#' style='margin-left: 2px;'>예매</a>
+		<img style='margin-left: 2px;' src='./image/bg-location-arr.png'>
+		<a href='#' style='margin-left: 4px;'>빠른예매</a>
+	</div> -->
+
+	<!-- <div id='page-util'>
+		<img style='margin-left: 402px;' src='./image/bg-location-home.png'>
+		<img style='margin-left: 5px;' src='./image/bg-location-arr.png'>
+		<a href='#' style='margin-left: 2px;'>영화</a>
+		<img style='margin-left: 2px;' src='./image/bg-location-arr.png'>
+		<a href='#' style='margin-left: 3px;'>무비포스트</a>
+	</div> -->
+
+	<!-- <div id='page-util'>
+		<img style='margin-left: 402px;' src='./image/bg-location-home.png'>
+		<img style='margin-left: 5px;' src='./image/bg-location-arr.png'>
+		<a href='#' style='margin-left: 2px;'>극장</a>
+		<img style='margin-left: 2px;' src='./image/bg-location-arr.png'>
+		<a href='#' style='margin-left: 4px;'>전체극장</a>
+	</div> -->
+
+
+	<!--마우스를 갖다 댄 nav 상태(초록색)-->
+	<!--<div id="page-util-others">
+		<a href='#' title='전체영화' style='margin-left: 513px;'>전체영화</a>
+		<a href='#' title='무비포스트' style='margin-left: 13px;'>무비포스트</a>
+	</div> -->
+
+	<!-- <div id="page-util-others">
+		<a href='#' title='전체영화' style='margin-left: 602px;'>빠른예매</a>
+		<a href='#' title='무비포스트' style='margin-left: 13px;'>상영시간표</a>
+	</div> -->
+
+	<!-- <div id="page-util-others">
+		<a href='#' title='전체영화' style='margin-left: 695px;'>전체극장</a>
+		<a href='#' title='무비포스트' style='margin-left: 13px;'>특별관</a>
+	</div> -->
+
+	<!-- <div id="page-util-others">
+		<a href='#' title='전체영화' style='margin-left: 1083px;'>진행중 이벤트</a>
+	</div> -->
+
+	<!-- <div id="page-util-others">
+		<a href='#' title='전체영화' style='margin-left: 1252px;'>멤버십 안내</a>
+		<a href='#' title='무비포스트' style='margin-left: 13px;'>제휴 할인</a>
+	</div> -->
+
+
+	<!-------------------  여기까지가 header. 아래에서부터 본문 내용 입력	-->
+<div class="inner-wrap">
+    <div class="inb-area">
+    	<a class="tit" href="https://www.megabox.co.kr/mypage">
+    		나의 메가박스
+    	</a>
+    	<a class="area-a" href="https://www.megabox.co.kr/mypage/bookinglist">
+    		예매/구매내역
+    	</a>
+    	<a class="area-a">
+    		영화/스토어 관람권	
+    	</a>
+   	 	<div class="area-box">
+   			<a class="area-b">
+   				영화관람권
+   			</a>
+   			<a class="area-b">	
+    			스토어교환권
+    		</a>
+   		</div>
+    		<a class="area-a">
+    			메가박스/제휴쿠폰
+    		</a>
+   			<a class="area-a">
+    			맴버십 포인트
+   			</a>
+  	 	<div class="area-box">
+   			<a class="area-b">
+    			포인트 이용내역
+    		</a>
+    		<a class="area-b">
+   				멤버십 카드관리
+   			</a>
+   			<a class="area-b">
+   				MiL.k포인트
+   			</a>
+   		</div>
+   			<a class="area-a">
+   				나의 무비스토리
+   			</a>
+   			<a class="area-a">
+ 				나의 이벤트 응모내역
+  			</a>
+  			<a class="area-a">
+    			나의 문의내역
+   			</a>
+   			<a class="area-a">
+    			자주쓰는 카드 관리
+    		</a>
+    		<a class="area-a">
+    			회원정보
+   			</a>
+   		<div class="area-box">
+   			<a class="area-b">
+   				개인정보 수정
+    		</a>
+    		<a class="area-b">
+    			선택정보 수정
+    		</a>
+  	 	</div>
+	</div>
+	<div class="contents">
+		<h2 class="movie-tit">나의 무비스토리</h2>
+		<div class="tap-block">
+			<div class="btn ">
+				<a href="#">무비타임라인</a>
+			</div>
+			<div class="btn">
+				<a href="#">무비포스트</a>
+			</div>
+			<div class="btn ">
+				<a href="#">관람평</a>
+			</div>
+			<div class="btn ">
+				<a href="#">본영화</a>
+			</div>
+			<div class="btn on">
+				<a href="#">보고싶어</a>
+			</div>
+		</div>
+		<!-----------------------------  무비 타임라인   ------------------------->
+		<!-- <div class="btn-list">
+			<button type="button" class="left-swiper-btn">
+			</button>
+			<button type="button" class="date-btn">
+				2021
+			</button>
+			<button type="button" class="right-swiper-btn">
+			</button>
+		</div>
+		<div class="movie-timeline">
+			<strong>나의 무비타임라인을 만들어 보세요.</strong>
+		</div> -->
+		<!-- --------------------------  무비 포스트  ---------------------------->
+		<!-- <div class="tab-sorting">
+			<button class="tab-btn on" type="button" style="left:300px; float:left;">
+			나의 포스트 
+			</button>
+			<button class="tab-btn" type="button" style="left:300px; float:left;">구독중인 포스트</button>
+		</div>
+		<div class="movie-list">
+			<p class="result-count">
+				<strong>
+				총
+				<b class="font-gblue">0</b>
+				건
+				</strong>
+			</p>
+			<div class="list-right">
+			<button class="list-btn on">최신순</button>
+			<div class="line-box"></div>
+			<button class="list-btn ">공감순</button>
+			<div class="input-box">
+				<input class="input-text" type="text" title="제목, 장르, 감독, 주연배우" placeholder="제목, 장르, 감독, 주연배우">
+				<button type="button" class="btn-search"></button>
+			</div>
+			</div>
+		</div>
+		
+		
+		<div class="movie-post">
+			<strong>등록된 무비포스트가 없습니다.</strong>
+		</div>-->
+			<!---------------------------관람평  ----------------------------- -->
+		<!-- <div class="board-list-movie-story">
+		<p class="result-count">
+			<strong>
+			총
+			<b class="font-gblue">0</b>
+			건
+			</strong>
+		</p>
+		</div>
+		<div class="no-result">등록된 한줄평이 없습니다.
+		</div> -->
+		<!--------------------------- 본영화  ----------------------------- -->
+		<!-- <div class="mypage-info">
+			<ul class="dot-list">
+				<li>극장에서 발권하신 티켓 바코드 하단의 거래번호를 통해 본 영화 등록을 하실 수 있습니다.</li>
+				<li>본영화는 관람한 인원수에 한해 등록이 가능합니다.</li>
+			</ul>
+			<a href="#" class="btn-model-open" title="본 영화 등록">본 영화 등록</a>
+		</div>
+		<div class="board-list-movie-story">
+		<p class="result-count">
+			<strong>
+			총
+			<b class="font-gblue">0</b>
+			건
+			</strong>
+		</p>
+		</div>
+		<div class="no-result">관람 내역이 없습니다.
+		</div> -->
+		<!--------------------------- 보고싶어  ----------------------------- -->
+		<div class="board-list-util">
+		<p class="result-count">
+			<strong>
+			총
+			<b class="font-gblue">0</b>
+			건
+			</strong>
+		</p>
+		</div>
+		<div class="like-movie">
+			<i class="ico-movie">
+			</i>
+			<p>보고싶은 영화를 담아주세요.</p>
+		</div>
+	</div>
+</div>
+	
+		
+
+<div id="footer">
+    	<div class="container">
+    		<div id="footerbox1">
+    			<a href="https://www.megabox.co.kr/megaboxinfo" class="footerlink">회사소개</a>
+    			<a href="https://www.megabox.co.kr/recruit" class="footerlink">인재채용</a>
+    			<a href="https://www.megabox.co.kr/socialcontribution" class="footerlink">사회공헌</a>
+    			<a href="https://www.megabox.co.kr/partner" class="footerlink">제휴/광고/부대사업문의</a>
+	    		<a href="https://www.megabox.co.kr/support/terms" class="footerlink"><b>개인정보처리방침</b></a>
+	    		<a href="https://jebo.joonganggroup.com/main.do" class="footerlink">윤리경영</a>
+    			<a href="#" id="footerbox"><img src="./image/ico-footer-search.png" style="margin:-4px 0" />극장찾기</a>
+    		</div>
+    		<div id="footerbox4">    		<div id="footerbox2">
+    			<img src="./image/logo-opacity_new2.png" style="margin:0 15px 0 0; float:left;"/>
+    			<p class="footertext" style="margin-top:3px">
+    			 서울특별시 마포구 월드컵로 240, 지상 2층(성산동, 월드컵주경기장) ARS 1544-0070</p>
+    			 <p class="footertext">
+    			 대표자명 김진선 · 개인정보보호책임자 조상연 · 사업자등록번호 211-86-59478 · 통신판매업신고번호 제 833호
+    			 </p>
+    			 <p class="footertext">
+    			 COPYRIGHT © MegaboxJoongAng, Inc. All rights reserved
+    			 </p>
+    		</div>
+    			 
+    		<div id="footerbox3">
+    		     <a href="https://apps.apple.com/kr/app/megabox/id894443858?l=ko&ls=1">
+    			 	<div class="footerlink1" style="background-image:url(https://img.megabox.co.kr/static/pc/images/common/ico/ico-appstore.png)"></div>
+    			 </a>
+    			 <a href="https://play.google.com/store/apps/details?id=com.megabox.mop">
+    			 	<div class="footerlink1" style="background-image:url(https://img.megabox.co.kr/static/pc/images/common/ico/ico-googleplay.png)"></div>
+    			 </a>
+    			 <a href="https://www.instagram.com/megaboxon">
+    			 	<div class="footerlink1" style="background-image:url(https://img.megabox.co.kr/static/pc/images/common/ico/ico-instagram.png)"></div>
+    			 </a>
+    			 <a href="https://www.facebook.com/megaboxon">
+    			 	<div class="footerlink1" style="background-image:url(https://img.megabox.co.kr/static/pc/images/common/ico/ico-facebook.png)"></div>
+    			 </a>
+    			 <a href="https://twitter.com/megaboxon">
+    			 	<div class="footerlink1" style="background-image:url(https://img.megabox.co.kr/static/pc/images/common/ico/ico-twitter.png)"></div>
+    			 </a>
+    		</div>
+    		</div>
+    	</div>
+    </div>
+
+<!-- -----------------------여기까지가 footer----------------------- -->
+
+
+
+</body>
+
+</html>

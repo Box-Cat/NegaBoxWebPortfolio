@@ -1,0 +1,621 @@
+.container {
+	width: 1100px;
+	margin: 0px auto;
+
+}
+#header1 {
+	width: 100%;
+	height: 42px;
+	background-color: #f8f8fa;
+	margin: 0px;
+}
+
+a {
+	text-decoration: none
+}
+
+.icon-height {
+	margin-top: 13px;
+}
+
+.left {
+	float: left;
+	margin-right: 20px;
+}
+
+.right {
+	float: right;
+	margin-left: 20px;
+}
+
+.mini-nav {
+	font-size: 13px;
+	font-family: NanumBarunGothic, Dotum, 돋움, sans-serif;
+	color: rgb(68, 68, 68);
+}
+
+.nav {
+	margin-top: 10px;
+}
+
+.font {
+	font-size: 17px;
+	color: black;
+	font-weight: bold;
+	font-family: NanumBarunGothicf;
+}
+
+.left1 {
+	float: left;
+}
+
+.right1 {
+	float: right;
+}
+
+#page-util {
+	display: block;
+	position: relative;
+	top: 4px;
+	width: 100%;
+	height: 42px;
+	background-color: #f8f8fa;
+	border-top: solid 1px #351f67;
+	padding: 0;
+	line-height: 46px;
+	color: #666;
+}
+
+#page-util a {
+	line-height: 46px;
+	color: #666;
+	font-size: 15px;
+	position: relative;
+	top: -1px;
+}
+
+#page-util img {
+	position: relative;
+	top: -2px;
+}
+
+#page-util-others {
+	display: block;
+	position: relative;
+	top: 4px;
+	width: 100%;
+	height: 43px;
+	background-color: rgb(51, 158, 178);
+	padding: 0;
+	line-height: 46px;
+	color: #666;
+}
+
+
+#page-util-others a {
+	position: relative;
+	top: -4px;
+	font-family: NanumBarunGothic, Dotum, 돋움, sans-serif;
+	color: rgb(255, 255, 255);
+	font-size: 15px;
+}
+
+.has_sub_menu.on {
+	border-bottom: 4px solid rgb(51, 158, 178);
+	height: 41px;
+}
+.page-util-text {
+	margin: 0 auto;
+  		width: 1100px;
+}
+/*여기까지가 header. 아래에서부터 본문 내용 입력*/
+#footer{
+height:200px;
+width:100%;
+/* margin:0 -8px 0 -8px; */
+background-color:#f8f8fa;
+float:left;
+}
+.container1 {
+			width: 1100px;
+			margin: 0px auto;
+			
+}
+a {
+			text-decoration: none
+}
+.footerlink{
+		display:block;
+		color:#666;
+		line-height:30px;
+		font-size:.8em;
+		margin:0 10px 10px 0;
+		float:left;
+		}
+		#footerbox{
+		overflow:hidden;
+		box-sizing:border-box;
+		width:106px;
+		height:30px;
+		margin:5px 0 0 0;
+		padding:0;
+		text-align:center;
+		display:block;
+		line-height:28px;
+		font-size:.8667em;
+		color:#666;
+		border:1px solid #d8d9db;
+		border-radius:30px;
+		float:right;
+		}
+		#footerbox1{
+		width:100%;
+		height:30px;
+		padding:30px 0;
+		margin:0;
+		}
+		#footerbox2{
+		width:100%;
+		height:60px;
+		display:block;
+		margin:0;
+		}
+		#footerbox3{
+		width:185px;
+		height:30px;
+		display:block;
+		margin:0;
+		float:right;
+		position: relative;
+    	bottom: 60px;
+    	right: -168px;
+		}
+		
+		#footerbox4{
+		width:85%;
+		height:60px;
+		display:block;
+		margin:0;
+		float:left;
+		}
+		.footertext{
+		font-size:.7777em; 
+		font-weight:400; 
+		color:#444; 
+		float:left; 
+		vertical-align:top; 
+		display:inline-block;
+		margin:0;
+		}
+		.footerlink1{
+		display:block;
+		margin:0 5px 0 0;
+		width:31px;
+		height:30px;
+		float:right;
+		}	
+.page-warp {
+	margin: 0 auto;
+    width: 1100px;
+}
+.movie-tit {
+	padding: 0 0 26px 0;
+    font-size: 1.6666em;
+    font-weight: 400;
+    letter-spacing: -1px;
+    line-height: 1.1;
+    color: #222;
+    margin: 0;
+    
+}
+.contents {
+	width: 100%;
+    margin: 0;
+    padding: 40px 0 0 0;
+}
+.movie-tab-list {
+	background-color: rgba(255,255,255);
+    width: 1100px;
+    height: 41px;
+    
+}	
+.tab-menu {
+    position: relative;
+    display: block;
+    width: 218px;
+    height: 41px;
+    line-height: 40px;
+    padding: 0;
+    text-align: center;
+    color: #222;
+    font-size: 1.0667em;
+    float: left;
+    text-decoration: none;
+    border-bottom: 1px solid #503396;
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+    
+}
+.tab-menu.on {
+	border: 1px solid #503396;
+	border-bottom: none;
+	color: #503396;
+	
+}
+.movie-list-util {
+	width: 1100px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    height: 36px;
+	
+}
+.btn {
+	float: left;
+    margin-left: 10px;
+    padding: 5px 0 0 0;
+    
+}
+.btn.on {
+	float:left;
+	margin-left: 10px;
+    padding: 5px 0 0 0;
+}
+.movie-list-util p {
+	float: left;
+    margin: 0;
+    margin-left: 20px;
+    padding: 1px;
+}
+.btn-onair {
+	display: block;
+    padding: 0 0 0 30px;
+    background: url(./image/btn-on-air.png) no-repeat 0 2px;
+    cursor: pointer;
+    letter-spacing: -.5px;
+    font-weight: 400;
+    font-family: NanumBarunGothic,Dotum,'돋움',sans-serif;
+    border: 0;
+    font-size: 15px;
+}
+.input-box {
+	width: 220px;
+    height: 34px;
+    float: right;
+    margin: 0;
+    border: 1px solid #d8d9db;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+.input-text {
+	width: 178px;
+    height: 32px;
+    float: left;
+    border: none;
+    margin-left: 6px;
+}
+.btn-search {
+	background-image: url(./image/btn-search-input.png);
+    width: 32px;
+    height: 34px;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-position: center;
+    border: none;
+}
+.movie-list {
+	width: 1160px;
+    height: 100%;
+    float: right;
+}
+
+.movie-list-box {
+    position: relative;
+    float: left;
+    width: 230px;
+    height: 450px;
+    margin: 0 0 0 60px;
+    padding: 0;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+.movie-list-box-m {
+	position: relative;
+    float: left;
+    width: 230px;
+    height: 450px;
+    margin: 60px 0 0 60px;
+    padding: 0;
+    background-color: #fff;
+}
+.movie-list-info {
+	height: 330px;
+    width: 230px;
+}
+.movie-list-info .wrap {
+	display: none;
+    height: 329px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding: 25px;
+    color: #fff;
+    background-color: rgba(0,0,0,0.8);
+}
+.movie-list-info .wrap.on {
+	display:block;
+}
+.movie-list-info .wrap .score {
+	overflow: hidden;
+    position: relative;
+    top: 100px;
+    left: 2px;
+    right: 20px;
+    bottom: 20px;
+    padding: 10px 0 0 0;
+    text-align: center;
+    border-top: 1px solid #3c3c3c;
+    text-align: center;
+}
+.movie-list-info .wrap .score .preview {
+	display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    line-height: 36px;
+}
+.movie-list-info .wrap .score .preview .tit {
+	display: block;
+    float: left;
+    margin: 0 19px 0 0;
+    font-size: 13px;	
+}
+.movie-list-info .wrap .score .preview .number {
+	float: left;
+    font-size: 24px;
+    color: #59bec9;
+    position: relative;
+    bottom: 60px;
+    padding-left: 106px;
+}
+.movie-rank-special {
+	width: 220px;
+    position: absolute;
+    padding: 8px 0 0 10px;
+}
+
+.rank {
+	margin: 0;
+    width: 30px;
+    position: absolute;
+    color: #fff;
+    line-height: 1.1;
+    font-size: 2em;
+    font-style: italic;
+    font-family: Roboto,Dotum,'돋움',sans-serif;
+    font-weight: 300;
+    text-shadow: 2px 2px 2px rgb(0 0 0 / 80%);
+    background: url(../image/bg-movie-list-rank.png) no-repeat 0 0;
+    background-image: none;
+}
+.movie-list-info-img {
+	width: 230px;
+    height: 330px;
+    position: absolute;
+}
+.special {
+	float: right;
+    width: 120px;
+    text-align: center;
+}
+
+.special-dbc {
+	display: inline-block;
+    margin: 0 0 0 4px;
+    padding: 6px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: rgba(0,0,0,.6);
+}
+.special-mx {
+	display: inline-block;
+    margin: 0 0 0 4px;
+    padding: 6px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: rgba(0,0,0,.6);
+}
+
+.wrap .summary {
+    overflow: hidden;
+    height: 152px;
+}
+
+.tit-area {
+	margin: 14px 0 0 0;
+    width: 230px;
+    height: 27px;
+    padding: 0 0 0 30px;
+}
+.ir {
+    text-indent: -9999px;
+    position: fixed;
+    top: -9999px;
+    font-size: 1px;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+.rating-age-15 {
+	background-image: url(../image/txt-age-15.png);
+    overflow: hidden;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    margin: 0;
+    padding: 0;
+    text-indent: -9999px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0px;
+    padding-top: 5px;
+}
+
+.rating-age-12 {
+	background-image: url(../image/txt-age-12.png);
+    overflow: hidden;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    margin: 0;
+    padding: 0;
+    text-indent: -9999px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0px;
+    padding-top: 5px;
+}
+.rating-age-all {
+	background-image: url(../image/txt-age-all.png);
+    overflow: hidden;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    margin: 0;
+    padding: 0;
+    text-indent: -9999px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0px;
+    padding-top: 5px;
+}
+.rating-age-19 {
+	background-image: url(../image/txt-age-19.png);
+    overflow: hidden;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    margin: 0;
+    padding: 0;
+    text-indent: -9999px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0px;
+    padding-top: 5px;
+}
+.date-area {
+	padding: 10px 0 0 0;
+    width: 230px;
+    height: 22px;
+}
+.tit-line {
+	content: '';
+    display: block;
+    right: 0;
+    top: 50%;
+    width: 1px;
+    height: 12px;
+    margin: 4px 5px 0 5px;
+    background-color: #d8d9db;
+    float: left;
+}
+.date-area span {
+	float:left;
+	font-size:15px;
+}
+.like-and-btn {
+	width: 230px;
+    height: 36px;
+}
+.like-btn {
+	display: inline-block;
+    height: 36px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 34px;
+    color: #503396;
+    font-weight: 400;
+    border-radius: 4px;
+    font-family: NanumBarunGothic,Dotum,'돋움',sans-serif;
+    text-decoration: none;
+    border: 1px solid #503396;
+    vertical-align: middle;
+    background-color: #fff;
+    cursor: pointer;
+    width: 72px;
+    border-color: #ebebeb;
+}
+
+.Ticketing-btn {
+	color: #fff;
+    background-color: #503396;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #503396;
+    float: right;
+    line-height: 34px;
+    height: 34px;
+    font-size: 14px;
+    width: 153px;
+}
+.tit {
+	overflow: hidden;
+    display: block;
+    width: 87%;	
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 1.3333em;
+    font-weight: 400;
+    margin: 0;
+}
+.more-ico {
+	width: 12px;
+    height: 7px;
+    background-image: url(../image/ico-btn-more-arr.png);
+    margin-left: 6px;
+    position: absolute;
+    float: left;
+    margin-top: 7px;
+}
+.btn-more{
+	float: left;
+    width: 1100px;
+    padding-top: 40px;
+}
+.set-btn{
+	display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    border: 0;
+    border-bottom: 1px solid #eaeaea;
+    background-color: transparent;
+    color: #666;
+}
+.like-img {
+	width: 17px;
+    height: 15px;
+    background-image: url(../image/ico-heart-toggle-gray.png);
+    overflow: hidden;
+    display: inline-block;
+    margin: -1px 0 0 0;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: middle;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+.like-img.on {
+	background-position: -17px 0;
+}

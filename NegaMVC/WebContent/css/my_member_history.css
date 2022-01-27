@@ -1,0 +1,565 @@
+@charset "UTF-8";
+.container {
+			width: 1100px;
+			margin: 0px auto;
+
+}
+#header1 {
+	width: 100%;
+	height: 42px;
+	background-color: #f8f8fa;
+	margin: 0px;
+}
+
+a {
+	text-decoration: none
+}
+
+.icon-height {
+	margin-top: 13px;
+}
+
+.left {
+	float: left;
+	margin-right: 20px;
+}
+
+.right {
+	float: right;
+	margin-left: 20px;
+}
+
+.mini-nav {
+	font-size: 13px;
+	font-family: NanumBarunGothic, Dotum, 돋움, sans-serif;
+	color: rgb(68, 68, 68);
+}
+
+.nav {
+	margin-top: 10px;
+}
+
+.font {
+	font-size: 17px;
+	color: black;
+	font-weight: bold;
+	font-family: NanumBarunGothicf;
+}
+
+.left1 {
+	float: left;
+}
+
+.right1 {
+	float: right;
+}
+
+#page-util {
+	display: block;
+	position: relative;
+	top: 4px;
+	width: 100%;
+	height: 42px;
+	background-color: #f8f8fa;
+	border-top: solid 1px #351f67;
+	padding: 0;
+	line-height: 46px;
+	color: #666;
+}
+
+#page-util a {
+	line-height: 46px;
+	color: #666;
+	font-size: 15px;
+	position: relative;
+	top: -1px;
+}
+
+#page-util img {
+	position: relative;
+	top: -2px;
+}
+
+#page-util-others {
+	display: block;
+	position: relative;
+	top: 4px;
+	width: 100%;
+	height: 43px;
+	background-color: rgb(51, 158, 178);
+	padding: 0;
+	line-height: 46px;
+	color: #666;
+}
+
+
+#page-util-others a {
+	position: relative;
+	top: -4px;
+	font-family: NanumBarunGothic, Dotum, 돋움, sans-serif;
+	color: rgb(255, 255, 255);
+	font-size: 15px;
+}
+
+.has_sub_menu.on {
+	border-bottom: 4px solid rgb(51, 158, 178);
+	height: 41px;
+}
+
+		/*여기까지가 header. 아래에서부터 본문 내용 입력*/
+#footer{
+	height:200px;
+	width:100%;
+	/* margin:0 -8px 0 -8px; */
+	background-color:#f8f8fa;
+}
+.container {
+	width: 1100px;
+	margin: 0px auto;
+
+}
+a {
+	text-decoration: none
+}
+.footerlink{
+	display:block;
+	color:#666;
+	line-height:30px;
+	font-size:.8em;
+	margin:0 10px 10px 0;
+	float:left;
+}
+#footerbox{
+	overflow:hidden;
+	box-sizing:border-box;
+	width:106px;
+	height:30px;
+	margin:5px 0 0 0;
+	padding:0;
+	text-align:center;
+	display:block;
+	line-height:28px;
+	font-size:.8667em;
+	color:#666;
+	border:1px solid #d8d9db;
+	border-radius:30px;
+	float:right;
+}
+#footerbox1{
+	width:100%;
+	height:30px;
+	padding:30px 0;
+	margin:0;
+}
+#footerbox2{
+	width:100%;
+	height:60px;
+	display:block;
+	margin:0;
+}
+#footerbox3{
+	width:185px;
+	height:30px;
+	display:block;
+	margin:0;
+	float:right;
+	position: relative;
+   	bottom: 60px;
+   	right: -168px;
+}
+#footerbox4{
+	width:85%;
+	height:60px;
+	display:block;
+	margin:0;
+	float:left;
+}
+.footertext{
+	font-size:.7777em; 
+	font-weight:400; 
+	color:#444; 
+	float:left; 
+	vertical-align:top; 
+	display:inline-block;
+	margin:0;
+}
+.footerlink1{
+	display:block;
+	margin:0 5px 0 0;
+	width:31px;
+	height:30px;
+	float:right;
+}
+		/* ---------------여기까지가 footer------------------------- */
+.inner-wrap {
+	background-color:#fff; 
+	width: 1100px;
+	height:1330px;
+	margin:0 auto;
+	
+}
+.inb-area {
+	float: left;
+	width: 200px;
+	height: 800px;
+	background-color:#fff;
+	box-sizing: border-box;
+	border: 1px solid #d8d9db;
+	border-radius: 5px;
+	
+}
+.inb-area .tit {
+	display: block;
+    width: 100%;
+    font-size: 18px;
+    line-height: 90px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    background-color: #000000;
+    border-radius: 10px 10px 0 0;
+}
+
+.my-megabox-main{
+	float: right;
+	width: 840px;
+	height: 1248.5px;
+	background-color:#fff;
+	font-family: NanumBarunGothic,Dotum,'돋움',sans-serif;
+}
+/* .tit {
+	display: block;
+    width: 100%;
+    font-size: 18px;
+    line-height: 90px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    background-color:#000000;
+    border-radius: 10px 10px 0 0;
+    
+} */
+.area-a {
+	display: block;
+    color: #222;
+    padding: 10px 15px;
+    font-weight: 400;
+    background-color: #f2f4f5;
+    border: 1px solid #d8d9db;
+	border-radius: 5px;
+	font-size:15px;
+	font-family: NanumBarunGothic,Dotum,'돋움',sans-serif;
+	border-bottom: none;
+}
+.area-b {
+	padding: 2px 0 2px 24px;
+    color: #666;
+    display: block;
+    font-size:15px;
+    font-weight: 400;
+    font-family: NanumBarunGothic,Dotum,'돋움',sans-serif;
+}
+
+.area-box {
+	padding: 20px 0;
+    width: 200px;
+}
+
+				/* ----------------------여기 까지 매가박스 왼쪽 리스트------------------------ */ 
+.contents {
+	float:right;
+	margin:0;
+	width:840px;
+	height: 426.3px;
+}
+.movie-tit {
+	padding: 0 0 26px 0;
+    font-size: 1.8666em;
+    font-weight: 400;
+    letter-spacing: -1px;
+    line-height: 1.1;
+    color: #222;
+    margin:0px;
+}
+.tap-block {
+	margin: 0;
+    padding: 0;
+    width: 840px;
+    height: 34px;
+    border-bottom: 1px solid #d8d9db;
+    float: left;
+}
+.btn {
+	width: 166px;
+    height: 34px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 34px;
+    text-align: center;
+    float: left;
+    border: 1px solid #d8d9db;
+    font-size:15px;
+    
+}
+.btn a {
+	color:#444444;
+}
+.btn.on {
+	height:34px;
+	width:166px;
+	float:left;
+	border: 1px solid #d8d9db;
+	text-align: center;
+    line-height: 36px;
+	color: #fff;
+    background-color: #555;
+    font-size:15px;
+}
+.btn.on a {
+	color:#fff;
+}
+.board-list-search-a {
+	width: 840px;
+    float: left;
+    height: 76px;
+    margin-top: 20px;
+    padding: 20px 40px;
+    background-color: #f2f4f5;
+}
+.a-search {
+	display:none;
+}
+.b-search {
+	display:none;
+}
+.a-search.on {
+	display:block;
+}
+.b-search.on {
+	display:block;
+}
+.board-list-search-b {
+	width: 840px;
+    float: left;
+    height: 75px;
+    margin-top: 20px;
+    padding: 20px 40px;
+    background-color: #f2f4f5;
+}
+
+.board-box {
+	width: 100%;
+    height: 32px;
+    padding: 2px 0;
+}
+.list-btn-right {
+	width:69.96px;
+	height:32px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	border-radius:5px;
+	text-align:center;
+	margin-left:10px;
+}
+
+.radbox {
+	vertical-align: middle;
+  	width: 16px; 
+  	height: 16px;
+  	margin-top: -4px;
+  	margin-left: 0;
+    margin-right: 0;
+}
+.board-box label {
+	margin-left: -4px;
+	padding-right: 15px;
+}
+.date-btn {
+	height: 100%;
+    margin: 0;
+    border: 1px solid #666;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.history-box {
+	float: left;
+    width: 840px;
+    height: 160px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    line-height: 160px;
+}
+.history-tit {
+    width: 840px;
+    margin-top: 70px;
+    padding-bottom: 20px;
+    float: left;
+}
+.mypage-info {
+	height:56px;
+	padding:0px;
+	border-bottom: 1px solid #ebebeb;
+	float: left;
+	width: 840px;
+}
+.table-warp {
+	position: relative;
+    border-top: 1px solid #555;
+    float: left;
+    width: 840px;
+}
+.table-list {
+	float:left;
+	padding: 3px 10px;
+    color: #222;
+    border: 1px solid #eaeaea;
+    border-width: 0 0 1px 0;
+    background-color: #f2f4f5;
+    text-align:center;
+    line-height: 36px;
+    
+}
+
+.btn-box {
+	margin-top: 60px;
+    float: left;
+    width: 840px;
+    height: 0;
+}
+.dot-toggle-a.on {
+	width: 100%;
+    height: 39px;
+    background-color: #f2f4f5;
+    border: 1px solid #d8d9db;
+    text-align: left;
+    padding-left: 20px;
+    float:left;
+    margin-top: 50px;
+}
+.dot-toggle-a {
+	width: 100%;
+    height: 39px;
+    background-color: #fff;
+    border: 1px solid #d8d9db;
+    text-align: left;
+    padding-left: 20px;
+    float:left;
+    margin-top: 50px;
+}
+.dot-toggle-b.on {
+	width: 100%;
+    height: 39px;
+    background-color: #f2f4f5;
+    border: 1px solid #d8d9db;
+    text-align: left;
+    padding-left: 20px;
+    float:left;
+    margin-top: 50px;
+}
+.dot-toggle-b {
+	width: 100%;
+    height: 39px;
+    background-color: #fff;
+    border: 1px solid #d8d9db;
+    text-align: left;
+    padding-left: 20px;
+    float:left;
+    margin-top: 50px;
+}
+.cont-list {
+	padding: 15px;
+    float: left;
+    width: 840px;
+    margin: 0;
+}
+.table-warp-list {
+    border: 1px solid #f2f4f5;
+    border-width: 0 0 1px 0;
+    text-align: center;
+    width: 840px;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+
+.table-warp-list p {
+	margin:0;
+}
+.box-button {
+	display: none;
+}
+.box-button.on {
+	width: 840px;
+    height: 550px;
+    float: left;
+    padding-top: 50px;
+    display: block;
+}
+.box-button strong {
+	float:left;
+}
+.cont-list li {
+	font-size:15px;
+}
+.cont-box {
+	float:left;
+    padding: 20px;
+}
+.borad-btn {
+	width: 60px;
+    height: 36px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    color: #666;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-width: 1px 0 1px 1px;
+    background-color: #fff;
+}
+.date-calen {
+	display: inline-block;
+    width: 118px;
+    height: 32px;
+    padding: 0 10px;
+    line-height: 30px;
+    border-radius: 0!important;
+    border: 1px solid #d8d9db;
+    border-width: 1px 0 1px 1px;
+    vertical-align: middle;
+    font-family: NanumBarunGothic,Dotum,'돋움',sans-serif;
+}
+.date-calen-btn {
+	width: 32px;
+    height: 34px;
+    margin-left: -6px;
+    border: 1px solid #d8d9db;
+    border-width: 1px 1px 1px 0;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: middle;
+    background: #fff url(./image/ico-calendar.png) 
+    no-repeat 
+    center;
+}
+.result-count {
+	position: relative;
+    float: left;
+    margin: 0;
+    line-height: 1.1;
+    vertical-align: top;
+}
+.font-gblue {
+	color:#01738b;
+	font-weight: 700;
+}
+.area-a:hover {
+	color:#01738b;	
+}
+.area-b:hover {
+	color:#01738b;
+}
